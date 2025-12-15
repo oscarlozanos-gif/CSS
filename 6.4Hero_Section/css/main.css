@@ -1,0 +1,158 @@
+/* ============================================
+RESET I BASE
+============================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a202c;
+  line-height: 1.6;
+  background-color: #f7fafc;
+}
+
+/* ============================================
+MENÚ NAVIGATION STICKY
+============================================ */
+nav {
+  text-align: center;
+  margin: auto;
+  backdrop-filter: blur(6px);
+}
+
+header{
+  position: fixed;
+  top: 0;
+}
+
+header img {
+  width: 40px;
+  display: inline-block;
+  filter: invert(100%);
+}
+
+.nav-menu{
+  display: inline-block;
+}
+.nav-menu li{
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.5rem;
+  border: solid 1px white;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+header li{
+  display: inline-block;
+}
+
+span  {
+  font-size: 2rem;
+}
+/* ============================================
+HERO SECTION AMB PARALLAX
+============================================ */
+#inici{
+  text-align: center;
+  color: white;
+  
+}
+
+#inici h1{
+  font-size: 45px;
+  text-shadow: 1px 1px 4px black;
+}
+
+#inici a{
+  border: solid 0.5px #ffffff;
+  border-radius: 10px;
+  color: #f7fafc;
+  text-decoration: none;
+  padding: 8px;
+  Background: rgba(255, 255, 255, 0.2);
+  Backdrop-filter: blur(3px);
+}
+
+.hero {
+  background-image: url('./../img/hero-section.webp');
+  padding: 15rem;
+  background-position: center ;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+/* ============================================
+SECCIÓ DESTINACIONS POPULARS
+============================================ */
+h2 {
+  text-align: center;
+  margin: 8px;
+  font-size: 30px;
+}
+
+p {
+  font-size: small;
+  margin: 1rem;
+}
+
+
+
+.card-container img{ 
+  width: 100%;
+
+}
+
+.travel-card{
+  width: 32%;
+  display: inline-block;
+  box-shadow: 2px 2px 2px;
+  border-radius: 3px;
+  margin: 3px;
+}
+.travel-card {
+  border-radius: 5px;
+
+}
+
+.travel-card .card-price{
+  color: springgreen;
+}
+
+.travel-card .btn-card{
+  border:   blue solid 1px;
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* ============================================
+OFERTES DESTACADES
+============================================ */
+h1{
+  
+}
+
+#ofertes {
+
+}
+/* ============================================
+FOOTER
+============================================ */
+#contacte {
+
+}
